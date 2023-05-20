@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<head>
+<title>Strathmore Univeristy</title>
+</head>
+
+<body>
+    <h1 style="text-align: center; text-decoration: rgb(160, 31, 57);">Welcome</h1>
+    <img src="images.jfif" width="30%">
+    <!--Form elements-->
+    
+<h3>Form</h3>
+<form action="registration.php" method="post">
+    <label for="username">Username</label>
+    <div><input type="text" name="username" placeholder="Enter your username" required></div>
+    <label>Email</label>
+    <div><input type="email" name="email" placeholder="Enter your email" required></div>
+    <label>Password</label>
+    <div><input type="password" name="password" placeholder="Enter your password" required></div>
+    <label>DOB</label>
+    <div><input type="date" name="date" placeholder="Enter your DOB" required></div>
+    <label>Age</label>
+    <div><input type="number" name="age" placeholder="Enter your age" required></div>
+
+    <!--Radio buttons-->
+    <div>
+    <label>male</label>
+    <input type="radio" name="gender" value="male">
+    <label>female</label>
+    <input type="radio" name="gender" value="female">
+    </div>
+
+    <!--checkbox-->
+    <div>
+    <p>Select a Unit</p>
+    <label>Geo</label><input type="checkbox" name="unit">
+    <label>DSA</label><input type="checkbox" name="unit">
+    <label>Web</label><input type="checkbox" name="unit">
+    <label>Art</label><input type="checkbox" name="unit">
+    </div>
+
+    <!--select element-->
+    <div>
+    <br><br><p>Select your meal</p><select name="meals">
+        <option>--select meal</option>
+        <option>Rice</option>
+        <option>Chapati</option>
+        <option>Oats</option>
+        <option>Ugali</option>
+    </select>
+
+    </div>
+    <br><br><textarea name="feedback" rows="5" width="30"></textarea>
+
+    <br><br><input type="submit" name="submit">
+    <br><br><input type="reset" name="reset">
+
+    <br><br><button><img src="images.jfif" width="5%">Login</button>
+</form>
+
+<!--block level element-->
+<p><i>My paragraph</p></i>
+<p><mark>My paragraph</p></mark>
+
+<!--inline level element-->
+<a href="#">link</a>
+<a href="#">link</a>
+<a href="#">link</a>
+
+<!--lists-->
+
+<!--ordered-->
+<ol>
+    <li>Cats</li>
+    <li>Dogs</li>
+    <li>Worms</li>
+</ol>
+
+<!--unordered-->
+<ul>
+    <li>Hairy</li>
+    <li>Bald</li>
+    <li>short hair</li>
+</ul>
+</body>
